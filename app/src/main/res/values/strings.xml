@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SumInputMask</string>
+    <string name="input_type_number">Input Type: NUMBER</string>
+    <string name="usd">USD</string>
+    <string name="input_type_number_decimal">Input Type: NUMBER_DECIMAL</string>
+</resources>
