@@ -40,6 +40,9 @@ internal class SumMaskWatcher(private val editText: EditText) : TextWatcher {
             }
         }
 
+        if (before.isEmpty()) position = after.length
+        if (after.isEmpty()) position = 0
+
         editText.setSelection(position)
         editText.addTextChangedListener(this)
     }
